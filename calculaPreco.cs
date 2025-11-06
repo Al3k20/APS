@@ -40,7 +40,7 @@ class Program
             Desconto = 25
 
         };
-
+        Console.WriteLine($"Preco inicial de {produto.Nome}: R$ {produto.Preco:F2}");
         Console.WriteLine($"Preço final de {produto.Nome}: R$ {produto.CalcularPrecoFinal():F2}");
 
     }
